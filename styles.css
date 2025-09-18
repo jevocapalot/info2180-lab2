@@ -86,9 +86,9 @@ body {
     background-color: #E2E8F0;   
     padding: 10px;
   }
-  aside h3:nth-of-type(2),
-  aside h3:nth-of-type(3) {
-    color: #48BB78;  
+  aside section:nth-of-type(2) > h3,
+  aside section:nth-of-type(3) > h3 {
+    color: #48BB78;
   }
 
   article, aside section {
